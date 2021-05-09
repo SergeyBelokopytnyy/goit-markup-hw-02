@@ -5,28 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <!--Голова сайта-->
   <header>
-    <a href="">WebStudio</a>
-    <nav>
-      <ul>
+    <a class="logo" href=""><span class="logotip">Web</span>Studio</a>
+    <nav class="site-nav">
+      <ul class="site-nav-list list-type">
         <li><a href="./index.html">Студия</a></li>
         <li><a href="./portfolio.html">Портфолио</a></li>
         <li><a href="">Контакты</a></li>
       </ul>
     </nav>
-    <ul>
+    <ul class="address list-type">
       <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
   </header>
   <!--Тело сайта-->
   <main>
-    <section>
-      <h1>Наше портфолио</h1> <!--нужен для разметки.скроется при стилизации-->
-      <ul>
+    <section class="portfol">
+      <h1 class="portfol-title">Наше портфолио</h1> <!--нужен для разметки.скроется при стилизации-->
+      <ul class="portfol-list list-type">
         <li><button type="button">Все</button></li>
         <li><button type="button">Веб-сайты</button></li>
         <li><button type="button">Приложения</button></li>
@@ -34,8 +37,8 @@
         <li><button type="button">Маркетинг</button></li>
       </ul>
       <!--Проекты-->
-      <h2>Наши проекты</h2> <!--нужен для разметки.скроется при стилизации-->
-      <ul>
+      <h2 class="project-title">Наши проекты</h2> <!--нужен для разметки.скроется при стилизации-->
+      <ul class="project-list list-type">
         <li>
           <img src="./images/img1.jpg" alt="Просмотр сайта" width="370" height="294">
           <h3>Технокряк</h3>
@@ -86,9 +89,9 @@
   </main>
   <!--Подвал сайта-->
   <footer>
-    <a href="">WebStudio</a>
+    <a class="logo-foot" href=""><span class="logotip">Web</span>Studio</a>
     <address>
-      <ul>
+      <ul class="address-foot list-type">
         <li><a href="https://goo.gl/maps/ENBTeQWaKfRkF7op7" target="_blank" rel="noopener nofollow">г. Киев, пр-т Леси
             Украинки, 26</a></li>
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
