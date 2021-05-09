@@ -49,6 +49,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
+  text-align: center;
 }
 .portfol button:hover,
 .portfol button:focus {
@@ -64,6 +65,7 @@ footer {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+  text-align: center;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -79,6 +81,7 @@ footer {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  text-align: center;
 }
 
 /* редактируем логотип WebStudio */
@@ -158,6 +161,7 @@ footer {
 .work-title {
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
 }
 
 /* редактируем секцию Наша команда */
@@ -166,12 +170,17 @@ footer {
   color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
 }
 .team h3 {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
+}
+.team p {
+  text-align: center;
 }
 
 /* редактируем секцию Наши проекты */
