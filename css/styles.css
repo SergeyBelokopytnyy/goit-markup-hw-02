@@ -1,5 +1,4 @@
 body {
-  background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
 }
@@ -23,6 +22,9 @@ body {
 
 header {
   background-color: var(--white-color);
+}
+.hero {
+  background-color: var(--footer-color);
 }
 .team {
   background-color: var(--section-color);
@@ -50,6 +52,7 @@ footer {
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
+  font-family: inherit;
 }
 .portfol button:hover,
 .portfol button:focus {
@@ -60,23 +63,23 @@ footer {
 /* цвет кнопки ЗАКАЗАТЬ УСЛУГУ */
 
 .button-primary {
-  background-color: var(--section-color);
-  color: var(--secondary-text-color-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   text-align: center;
+  font-family: inherit;
 }
 .button-primary:hover,
 .button-primary:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
   cursor: pointer;
 }
 
 /* изменяем главный заголовок Цвет изменится в дальнейшем */
 
 .hero-title {
+  color: var(--white-color);
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 900;
@@ -117,8 +120,11 @@ footer {
 .site-nav-list a:focus {
   color: var(--accent-color);
 }
+.site-nav-list .current {
+  color: var(--accent-color);
+}
 .address a {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
